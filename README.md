@@ -1,4 +1,4 @@
-# omnara-com
+# Omnara
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-omnara-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://omnara.com/
+Omnara is an open-source platform offering a unified API to build, deploy, and manage AI agents across any model, infrastructure, and cloud. It provides a single endpoint for developers to integrate agents into products, supporting features like stateful interactions, tool access, and customizable workflows. Backed by Y Combinator, Omnara targets teams and enterprises seeking scalable, secure agent solutions without building their own infrastructure.
+
+**Areas:** AI · Agents · OpenSource · Platform · Automation
+
+## Omnara on APIs.io
+
+Everything profiled for Omnara is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/omnara-com/](https://apis.io/providers/omnara-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Omnara Auth API](https://apis.io/apis/omnara-com/omnara-com-auth-api/) — The auth API from Omnara — 5 operation(s) for auth.
+- [Omnara Machines API](https://apis.io/apis/omnara-com/omnara-com-machines-api/) — The machines API from Omnara — 2 operation(s) for machines.
+- [Omnara Relay API](https://apis.io/apis/omnara-com/omnara-com-relay-api/) — The relay API from Omnara — 2 operation(s) for relay.
+- [Omnara User Sessions API](https://apis.io/apis/omnara-com/omnara-com-user-sessions-api/) — The user_sessions API from Omnara — 9 operation(s) for user_sessions.
+- [Omnara User Settings API](https://apis.io/apis/omnara-com/omnara-com-user-settings-api/) — The user-settings API from Omnara — 1 operation(s) for user-settings.
+- [Omnara Workspaces API](https://apis.io/apis/omnara-com/omnara-com-workspaces-api/) — The workspaces API from Omnara — 17 operation(s) for workspaces.
+- [Omnara Worktrees API](https://apis.io/apis/omnara-com/omnara-com-worktrees-api/) — The worktrees API from Omnara — 5 operation(s) for worktrees.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Omnara Com Webhooks](https://apis.io/asyncapis/omnara-com/omnara-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Omnara Agentic Access](https://apis.io/agentic-access/omnara-com/omnara-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateUserSessionRequest](https://apis.io/schemas/omnara-com/omnara-com-create-user-session-request/)
+- [MachineRegisterRequest](https://apis.io/schemas/omnara-com/omnara-com-machine-register-request/)
+- [UserSessionDescriptor](https://apis.io/schemas/omnara-com/omnara-com-user-session-descriptor/)
+- [WorkspaceDescriptor](https://apis.io/schemas/omnara-com/omnara-com-workspace-descriptor/)
+- [WorkspaceSessionLaunchRequest](https://apis.io/schemas/omnara-com/omnara-com-workspace-session-launch-request/)
+- [WorktreeDescriptor](https://apis.io/schemas/omnara-com/omnara-com-worktree-descriptor/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Omnara Com Context](https://apis.io/jsonld/omnara-com/omnara-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Omnara API Rules](https://apis.io/rules/omnara-com/omnara-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Omnara Authentication](https://apis.io/security/omnara-com/omnara-com-authentication/)
+- [Omnara Domain Security](https://apis.io/security/omnara-com/omnara-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Omnara Plans Pricing](https://apis.io/plans/omnara-com/omnara-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://omnara.com/)
+- [Documentation](https://docs.omnara.com/)
+- [Getting started](https://docs.omnara.com/quickstart)
+- [API reference](https://docs.omnara.com/api/overview)
+- [Pricing](https://omnara.com/pricing)
+- [Support](https://docs.omnara.com/support)
+- [Changelog](https://docs.omnara.com/changelog)
+- [Blog](https://omnara.com/blog)
+- [Terms of service](https://www.omnara.com/terms)
+- [Privacy policy](https://www.omnara.com/privacy)
+- [GitHub](https://github.com/omnara-ai)
+
+## API Evangelist rating
+
+**Kin Score 58.0** — strong · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 66.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.2 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 48.5 |
+
+**Agent readiness 58.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/omnara-com/](https://apis.io/providers/omnara-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Omnara: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/omnara-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
